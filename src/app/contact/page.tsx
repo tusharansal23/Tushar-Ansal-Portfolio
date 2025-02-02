@@ -38,7 +38,7 @@ export default function Contact() {
       } else {
         setSubmitMessage("Failed to send message. Please try again.")
       }
-    } catch (error) {
+    } catch {
       setSubmitMessage("An error occurred. Please try again later.")
     }
     setIsSubmitting(false)

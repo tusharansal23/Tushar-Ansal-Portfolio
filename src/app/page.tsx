@@ -5,8 +5,6 @@ import Projects from "./projects/page"
 import Contact from "./contact/page"
 import { useEffect } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
-import { Inter } from "next/font/google"
-import Script from "next/script"
 import type React from "react"
 // import About from "./components/about"
 
