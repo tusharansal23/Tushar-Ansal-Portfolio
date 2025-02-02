@@ -42,8 +42,10 @@ const projects = [
     liveUrl: "https://aurika-tech-invoice.vercel.app/",
   },
 ]
-
-export default function Projects({ limit }: { limit?: number }) {
+interface ProjectsProps {
+  limit?: number
+}
+const Projects: React.FC<ProjectsProps> = ({ limit }) => {
   const displayedProjects = limit ? projects.slice(0, limit) : projects
 
   return (
@@ -82,3 +84,4 @@ export default function Projects({ limit }: { limit?: number }) {
     </section>
   )
 }
+export default Projects
