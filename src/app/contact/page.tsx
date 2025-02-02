@@ -51,9 +51,9 @@ export default function Contact() {
         <div className="row justify-content-center">
           <div className="col-md-6 mb-4 mb-md-0">
             <h3 className="mb-4">Contact Information</h3>
-            <p>
-              <strong>Address:</strong> Plot 23, GaneshVihar Colony, Mohali, Punjab
-            </p>
+            {/* <p>
+              <strong>Address:</strong> Plot 23, GaneshVihar, Mohali, Punjab
+            </p> */}
             <p>
               <strong>Email:</strong> tusharansal23@gmail.com
             </p>
