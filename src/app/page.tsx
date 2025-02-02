@@ -1,7 +1,7 @@
 "use client"
 import Home from "./home/page"
 import About from "./about/page"
-import Projects from "./projects/page"
+import Project from "./components/project"
 import Contact from "./contact/page"
 import { useEffect } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -18,7 +18,7 @@ export default function App() {
       <main>
         <Home />
         <About />
-        <Projects limit={3} />
+        <Project limit={3} />
         <Contact />
       </main>
       {/* <Footer /> */}
