@@ -1,5 +1,4 @@
 "use client"
-import Image from "../../images/logo192.png"
 import Link from "next/link"
 
 export function Footer() {

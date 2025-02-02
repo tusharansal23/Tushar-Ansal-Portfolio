@@ -30,22 +30,22 @@ export default function About() {
         <div className="col-lg-8"> 
         <h2 className="mb-3 text-gradient">
           <TypeAnimation
-            sequence={["Hello, I'm Tushar Ansal", 1500]} // 1500ms pause after typing
+            sequence={["Hello, I&apos;m Tushar Ansal", 1500]} // 1500ms pause after typing
             speed={50} // Typing speed
             wrapper="span"
-            repeat={Infinity} // Set to `0` or `false` if you don't want it to loop
+            repeat={Infinity} // Set to `0` or `false` if you don&apos;t want it to loop
           />
         </h2>
           <p className="lead mb-4">
-          I'm a passionate full-stack developer with extensive experience in creating beautiful, 
+          I&apos;m a passionate full-stack developer with extensive experience in creating beautiful, 
           functional, and user-centered digital experiences. I thrive on bringing innovative ideas 
           to life and constantly seek new ways to enhance user experiences through cutting-edge technology. 
           My expertise spans both front-end and back-end development, ensuring seamless and efficient 
-          solutions tailored to my clients' needs.
+          solutions tailored to my clients&apos; needs.
           </p>
           <p>
-            Based in Chandigarh, I'm a tech enthusiast who loves to code, solve problems, and learn 
-            new technologies. When I'm not in front of a computer screen, you can find me hiking in 
+            Based in Chandigarh, I&apos;m a tech enthusiast who loves to code, solve problems, and learn 
+            new technologies. When I&apos;m not in front of a computer screen, you can find me hiking in 
             the mountains or experimenting with new recipes in the kitchen.
           </p>
         </div>

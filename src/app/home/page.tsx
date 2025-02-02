@@ -8,7 +8,7 @@ export default function Home() {
         <div className="row align-items-center">
           <div className="col-md-6">
             <h1 className="display-4 fw-bold mb-4 text-gradient">Welcome to My Portfolio</h1>
-            <p className="lead mb-4">I'm a passionate web developer creating beautiful and functional websites.</p>
+            <p className="lead mb-4">I&apos;m a passionate web developer creating beautiful and functional websites.</p>
             <div className="d-flex gap-3 flex-wrap">
               <Link href="/about" className="btn btn-primary btn-lg">
                 About Me
