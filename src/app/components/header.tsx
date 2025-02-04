@@ -20,13 +20,12 @@ const navigation = [
 ]
 
 export function Header() {
-  const [isNavCollapsed, setIsNavCollapsed] = useState(false)
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true)
   const [dropdownOpen, setDropdownOpen] = useState(false)
   const [isMounted, setIsMounted] = useState(false)
 
   useEffect(() => {
     setIsMounted(true)
-    setIsNavCollapsed(false)
   }, [])
 
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed)
@@ -39,7 +38,6 @@ export function Header() {
       if (target) {
         target.scrollIntoView({ behavior: "smooth" })
       }
-      setIsNavCollapsed(false)
     }
   }
 
@@ -65,7 +63,7 @@ export function Header() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`navbar-collapse`} id="navbarNav">
+        <div className={`${!isNavCollapsed ? "collapse" : "visible"} navbar-collapse`} id="navbarNav">
           <ul className="navbar-nav ms-auto">
           {navigation.map((item) => (
               <li key={item.name} className={`nav-item ${item.submenu ? "dropdown" : ""}`}>

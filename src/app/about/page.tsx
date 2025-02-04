@@ -30,7 +30,7 @@ export default function About() {
         <div className="col-lg-8"> 
         <h2 className="mb-3 text-gradient">
           <TypeAnimation
-            sequence={["Hello, I&apos;m Tushar Ansal", 1500]} // 1500ms pause after typing
+            sequence={["Hello, I'm Tushar Ansal", 1500]} // 1500ms pause after typing
             speed={50} // Typing speed
             wrapper="span"
             repeat={Infinity} // Set to `0` or `false` if you don&apos;t want it to loop
