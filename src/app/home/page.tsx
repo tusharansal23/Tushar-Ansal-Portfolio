@@ -19,9 +19,9 @@ export default function Home() {
               <Link href="/contact" className="btn btn-outline-secondary btn-lg">
                 Contact
               </Link>
-              <a href="/resume.pdf" download className="btn btn-success btn-lg">
-                <i className="bi bi-download me-2"></i>Download Resume
-              </a>
+              <Link href="/Resume_CV.pdf" download className="btn btn-success btn-lg">
+                  Download Resume
+                  </Link>
             </div>
           </div>
           <div className="col-md-6 mt-4 mt-md-0">
