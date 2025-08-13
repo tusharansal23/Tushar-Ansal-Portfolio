@@ -1,35 +1,48 @@
+import { FaSearch, FaBullhorn, FaFacebookF, FaGoogle } from "react-icons/fa";
 
 export default function DigitalMarketing() {
+  const services = [
+    { name: "NorthCleaning Services", work: "Google Ads & SEO", icon: <FaGoogle /> },
+    { name: "Seabird Education", work: "SEO & Meta Ads", icon: <FaBullhorn /> },
+    { name: "Mukat Hospital", work: "SEO", icon: <FaSearch /> },
+    { name: "Pawan Meat Shop", work: "Social Media Handling", icon: <FaFacebookF /> },
+    { name: "Connet Technologies", work: "Social Media Handling", icon: <FaFacebookF /> },
+    { name: "Amway Japan", work: "SEO", icon: <FaSearch /> },
+    { name: "Designalytica", work: "SEO & Social Media", icon: <FaBullhorn /> },
+    { name: "JAPE", work: "SEO & Social Media", icon: <FaBullhorn /> },
+  ];
+
   return (
-    <>
-      {/* Digital Marketing Services Section */}
-      <section id="digital-marketing" className="py-5 bg-light">
-        <div className="container">
-          <h2 className="fw-bold mb-4 text-center">Digital Marketing Services</h2>
-          <p className="lead text-center mb-5">
-            I also provide SEO, Google My Business optimization, Google Ads, Meta Ads, and Social Media Management
-            services for various clients.
-          </p>
-          <div className="row">
-            <div className="col-md-6">
-              <ul className="list-group list-group-flush shadow-sm">
-                <li className="list-group-item"><strong>NorthCleaning Services</strong> — Google Ads & SEO</li>
-                <li className="list-group-item"><strong>Seabird Education</strong> — SEO & Meta Ads</li>
-                <li className="list-group-item"><strong>Mukat Hospital</strong> — SEO</li>
-                <li className="list-group-item"><strong>Pawan Meat Shop</strong> — Social Media Handling</li>
-              </ul>
+    <section id="digital-marketing" className="py-5 bg-light">
+      <div className="container">
+        <h2 className="fw-bold mb-4 text-center text-primary">🌟 Digital Marketing Services</h2>
+        <p className="lead text-center mb-5 text-muted">
+          Providing SEO, Google My Business optimization, Google Ads, Meta Ads, and Social Media Management for multiple clients.
+        </p>
+        <div className="row g-4">
+          {services.map((service, index) => (
+            <div key={index} className="col-md-3 col-sm-6">
+              <div className="card border-0 shadow-sm text-center h-100 p-3 hover-effect">
+                <div className="icon mb-3 text-primary" style={{ fontSize: "2rem" }}>
+                  {service.icon}
+                </div>
+                <h5 className="fw-bold">{service.name}</h5>
+                <p className="text-muted">{service.work}</p>
+              </div>
             </div>
-            <div className="col-md-6">
-              <ul className="list-group list-group-flush shadow-sm">
-                <li className="list-group-item"><strong>Connet Technologies</strong> — Social Media Handling</li>
-                <li className="list-group-item"><strong>Amway Japan</strong> — SEO</li>
-                <li className="list-group-item"><strong>Designalytica</strong> — SEO & Social Media</li>
-                <li className="list-group-item"><strong>JAPE</strong> — SEO & Social Media</li>
-              </ul>
-            </div>
-          </div>
+          ))}
         </div>
-      </section>
-    </>
-  )
+      </div>
+
+      <style jsx>{`
+        .hover-effect {
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .hover-effect:hover {
+          transform: translateY(-8px);
+          box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+        }
+      `}</style>
+    </section>
+  );
 }
