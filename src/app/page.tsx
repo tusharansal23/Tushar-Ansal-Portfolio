@@ -21,7 +21,6 @@ export default function App() {
         <Home />
         <About />
         <Project limit={3} />
-        <Digital />
         <DigitalMarketing/>
         <Contact />
       </main>
