@@ -8,6 +8,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function About() {
   return (
+    <>
     <div className="container py-5">
       <h1 className="display-4 text-center mb-5 section-title">About Me</h1>
 
@@ -89,6 +90,7 @@ export default function About() {
       <Education />
       <Interests />
     </div>
+    </>
   )
 }
 

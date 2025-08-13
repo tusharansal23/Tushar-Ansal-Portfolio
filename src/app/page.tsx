@@ -3,6 +3,8 @@ import Home from "./home/page"
 import About from "./about/page"
 import Project from "./components/project"
 import Contact from "./contact/page"
+import Digital from "./components/digital"
+import DigitalMarketing from "./digitalMarketing/page"
 import { useEffect } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import type React from "react"
@@ -19,6 +21,8 @@ export default function App() {
         <Home />
         <About />
         <Project limit={3} />
+        <Digital />
+        <DigitalMarketing/>
         <Contact />
       </main>
       {/* <Footer /> */}
