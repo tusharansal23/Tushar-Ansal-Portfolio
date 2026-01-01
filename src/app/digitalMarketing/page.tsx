@@ -1,4 +1,5 @@
 import { FaSearch, FaBullhorn, FaFacebookF, FaGoogle } from "react-icons/fa";
+import "./digitalMarketing.css";
 
 export default function DigitalMarketing() {
   const services = [
@@ -33,16 +34,6 @@ export default function DigitalMarketing() {
           ))}
         </div>
       </div>
-
-      <style jsx>{`
-        .hover-effect {
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .hover-effect:hover {
-          transform: translateY(-8px);
-          box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
-        }
-      `}</style>
     </section>
   );
 }
