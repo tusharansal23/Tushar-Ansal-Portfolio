@@ -58,7 +58,7 @@ export default function Contact() {
               <strong>Email:</strong> tusharansal23@gmail.com
             </p>
             <p>
-              <strong>Phone:</strong> +91 91213 - 26637
+              <strong>Phone:</strong> +91 73411 - 87639
             </p>
             <div className="mt-4">
               <h4 className="mb-3">Follow Me</h4>
