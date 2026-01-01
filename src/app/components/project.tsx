@@ -46,7 +46,7 @@ const projects = [
     name: "BizFinder",
     description:
       "Built a full-stack local business discovery platform where users can find nearby services by category and location, and business owners can list and manage their profiles through a secure, responsive system",
-    imageUrl: "/bizfinder.jpg",
+    imageUrl: "/bizfinder.jpeg",
     githubUrl: "https://github.com/tusharansal23/BizFinder",
     liveUrl: "https://biz-finder-eta.vercel.app/",
   },
@@ -54,9 +54,17 @@ const projects = [
     name: "TheZirk",
     description:
       "Created a responsive real estate website to showcase premium property projects, featuring detailed listings, image galleries, amenities, and location insights to enhance user engagement and brand credibility.",
-    imageUrl: "/thezirk.jpg",
+    imageUrl: "/thezirk.jpeg",
     githubUrl: "https://github.com/tusharansal23/the-zirk",
     liveUrl: "https://www.thezirk.biz/",
+  },
+  {
+    name: "Connet Technologies",
+    description:
+      "Created a responsive real estate website to showcase premium property projects, featuring detailed listings, image galleries, amenities, and location insights to enhance user engagement and brand credibility.",
+    imageUrl: "/connet.jpeg",
+    githubUrl: "https://github.com/tusharansal23/ConnetTechnologies",
+    liveUrl: "https://www.connettechnologies.com/",
   }
 ]
 interface ProjectsProps {
