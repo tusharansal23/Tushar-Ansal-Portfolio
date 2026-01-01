@@ -73,6 +73,14 @@ const projects = [
     imageUrl: "/pfit.jpeg",
     githubUrl: "https://github.com/tusharansal23/PFIT",
     liveUrl: "https://www.pfitfitness.com/",
+  },
+  {
+    name: "Pawan Meat Shop",
+    description:
+      "Developed a responsive business website for Pawan Meat Shop with modern design, clear product presentation, and seamless user navigation.",
+    imageUrl: "/pawanmeatshop.jpeg",
+    githubUrl: "https://github.com/tusharansal23/PFIT",
+    liveUrl: "https://www.pawanmeatshop.com/",
   }
 ]
 interface ProjectsProps {
