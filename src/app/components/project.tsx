@@ -42,6 +42,14 @@ const projects = [
     githubUrl: "https://github.com/tusharansal23/aurikaTech-Invoice",
     liveUrl: "https://aurika-tech-invoice.vercel.app/",
   },
+  {
+    name: "BizFinder",
+    description:
+      "Built a full-stack local business discovery platform where users can find nearby services by category and location, and business owners can list and manage their profiles through a secure, responsive system",
+    imageUrl: "/bizfinder.jpg",
+    githubUrl: "https://github.com/tusharansal23/BizFinder",
+    liveUrl: "https://biz-finder-eta.vercel.app/",
+  },
 ]
 interface ProjectsProps {
   limit?: number
