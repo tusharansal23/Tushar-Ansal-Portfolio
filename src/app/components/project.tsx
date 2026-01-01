@@ -46,7 +46,7 @@ const projects = [
     name: "BizFinder",
     description:
       "Built a full-stack local business discovery platform where users can find nearby services by category and location, and business owners can list and manage their profiles through a secure, responsive system",
-    imageUrl: "/bizfinder.jpeg",
+    imageUrl: "/bizfinder.JPG",
     githubUrl: "https://github.com/tusharansal23/BizFinder",
     liveUrl: "https://biz-finder-eta.vercel.app/",
   },
@@ -54,7 +54,7 @@ const projects = [
     name: "TheZirk",
     description:
       "Created a responsive real estate website to showcase premium property projects, featuring detailed listings, image galleries, amenities, and location insights to enhance user engagement and brand credibility.",
-    imageUrl: "/thezirk.jpeg",
+    imageUrl: "/thezirk.JPG",
     githubUrl: "https://github.com/tusharansal23/the-zirk",
     liveUrl: "https://www.thezirk.biz/",
   },
@@ -62,7 +62,7 @@ const projects = [
     name: "Connet Technologies",
     description:
       "Created a visually polished and responsive website for Connet Technologies, a CCTV solutions provider, enabling clear presentation of security services, camera installations, and support offerings while enhancing brand credibility and customer engagement.",
-    imageUrl: "/connet.jpeg",
+    imageUrl: "/connet.JPG",
     githubUrl: "https://github.com/tusharansal23/ConnetTechnologies",
     liveUrl: "https://www.connettechnologies.com/",
   },
@@ -70,7 +70,7 @@ const projects = [
     name: "Pfit Fitness",
     description:
       "Developed a responsive fitness services website for PFIT Fitness with modern UI, optimized navigation, and seamless user experience across devices.",
-    imageUrl: "/pfit.jpeg",
+    imageUrl: "/pfit.JPG",
     githubUrl: "https://github.com/tusharansal23/PFIT",
     liveUrl: "https://www.pfitfitness.com/",
   },
@@ -78,7 +78,7 @@ const projects = [
     name: "Pawan Meat Shop",
     description:
       "Developed a responsive business website for Pawan Meat Shop with modern design, clear product presentation, and seamless user navigation.",
-    imageUrl: "/pawanmeatshop.jpeg",
+    imageUrl: "/pawanmeatshop.JPG",
     githubUrl: "https://github.com/tusharansal23/PFIT",
     liveUrl: "https://www.pawanmeatshop.com/",
   }
