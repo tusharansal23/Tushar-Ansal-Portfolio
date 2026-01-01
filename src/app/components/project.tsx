@@ -61,10 +61,18 @@ const projects = [
   {
     name: "Connet Technologies",
     description:
-      "Created a responsive real estate website to showcase premium property projects, featuring detailed listings, image galleries, amenities, and location insights to enhance user engagement and brand credibility.",
+      "Created a visually polished and responsive website for Connet Technologies, a CCTV solutions provider, enabling clear presentation of security services, camera installations, and support offerings while enhancing brand credibility and customer engagement.",
     imageUrl: "/connet.jpeg",
     githubUrl: "https://github.com/tusharansal23/ConnetTechnologies",
     liveUrl: "https://www.connettechnologies.com/",
+  },
+  {
+    name: "Pfit Fitness",
+    description:
+      "Developed a responsive fitness services website for PFIT Fitness with modern UI, optimized navigation, and seamless user experience across devices.",
+    imageUrl: "/pfit.jpeg",
+    githubUrl: "https://github.com/tusharansal23/PFIT",
+    liveUrl: "https://www.pfitfitness.com/",
   }
 ]
 interface ProjectsProps {
