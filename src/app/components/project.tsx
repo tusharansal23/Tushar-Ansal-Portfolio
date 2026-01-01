@@ -50,6 +50,14 @@ const projects = [
     githubUrl: "https://github.com/tusharansal23/BizFinder",
     liveUrl: "https://biz-finder-eta.vercel.app/",
   },
+  {
+    name: "TheZirk",
+    description:
+      "Built a full-stack local business discovery platform where users can find nearby services by category and location, and business owners can list and manage their profiles through a secure, responsive system",
+    imageUrl: "/thezirk.jpg",
+    githubUrl: "https://github.com/tusharansal23/the-zirk",
+    liveUrl: "https://www.thezirk.biz/",
+  }
 ]
 interface ProjectsProps {
   limit?: number
