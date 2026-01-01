@@ -53,7 +53,7 @@ const projects = [
   {
     name: "TheZirk",
     description:
-      "Built a full-stack local business discovery platform where users can find nearby services by category and location, and business owners can list and manage their profiles through a secure, responsive system",
+      "Created a responsive real estate website to showcase premium property projects, featuring detailed listings, image galleries, amenities, and location insights to enhance user engagement and brand credibility.",
     imageUrl: "/thezirk.jpg",
     githubUrl: "https://github.com/tusharansal23/the-zirk",
     liveUrl: "https://www.thezirk.biz/",
